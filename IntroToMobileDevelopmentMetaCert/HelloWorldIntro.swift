@@ -9,8 +9,12 @@ import SwiftUI
 
 struct HelloWorldIntro: View {
     var body: some View {
-        Text("Hello world!")
-            .bold()
+        List {
+            Section(header: Text("Top priority")) {
+                Text("I Need to build some mid-level unique stuff")
+            }
+        }
+        .listStyle(.plain)
     }
 }
 
@@ -19,3 +23,4 @@ struct HelloWorldIntro_Previews: PreviewProvider {
         HelloWorldIntro()
     }
 }
+

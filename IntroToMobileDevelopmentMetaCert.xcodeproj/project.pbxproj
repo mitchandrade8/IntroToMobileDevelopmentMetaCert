@@ -12,6 +12,7 @@
 		74C196F92A7DAC18005C08F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C196F82A7DAC18005C08F3 /* Assets.xcassets */; };
 		74C196FC2A7DAC18005C08F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C196FB2A7DAC18005C08F3 /* Preview Assets.xcassets */; };
 		74C197032A7E4226005C08F3 /* HelloWorldIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C197022A7E4226005C08F3 /* HelloWorldIntro.swift */; };
+		74C197052A7F956D005C08F3 /* MetaProjectRequirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C197042A7F956D005C08F3 /* MetaProjectRequirements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		74C196F82A7DAC18005C08F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74C196FB2A7DAC18005C08F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		74C197022A7E4226005C08F3 /* HelloWorldIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldIntro.swift; sourceTree = "<group>"; };
+		74C197042A7F956D005C08F3 /* MetaProjectRequirements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaProjectRequirements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				74C197022A7E4226005C08F3 /* HelloWorldIntro.swift */,
 				74C196F82A7DAC18005C08F3 /* Assets.xcassets */,
 				74C196FA2A7DAC18005C08F3 /* Preview Content */,
+				74C197042A7F956D005C08F3 /* MetaProjectRequirements.swift */,
 			);
 			path = IntroToMobileDevelopmentMetaCert;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				74C197032A7E4226005C08F3 /* HelloWorldIntro.swift in Sources */,
 				74C196F72A7DAC16005C08F3 /* ContentView.swift in Sources */,
+				74C197052A7F956D005C08F3 /* MetaProjectRequirements.swift in Sources */,
 				74C196F52A7DAC16005C08F3 /* IntroToMobileDevelopmentMetaCertApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
