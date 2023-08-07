@@ -58,9 +58,9 @@
 				74C196F42A7DAC16005C08F3 /* IntroToMobileDevelopmentMetaCertApp.swift */,
 				74C196F62A7DAC16005C08F3 /* ContentView.swift */,
 				74C197022A7E4226005C08F3 /* HelloWorldIntro.swift */,
+				74C197042A7F956D005C08F3 /* MetaProjectRequirements.swift */,
 				74C196F82A7DAC18005C08F3 /* Assets.xcassets */,
 				74C196FA2A7DAC18005C08F3 /* Preview Content */,
-				74C197042A7F956D005C08F3 /* MetaProjectRequirements.swift */,
 			);
 			path = IntroToMobileDevelopmentMetaCert;
 			sourceTree = "<group>";
