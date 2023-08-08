@@ -13,6 +13,8 @@
 		74C196FC2A7DAC18005C08F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C196FB2A7DAC18005C08F3 /* Preview Assets.xcassets */; };
 		74C197032A7E4226005C08F3 /* HelloWorldIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C197022A7E4226005C08F3 /* HelloWorldIntro.swift */; };
 		74C197052A7F956D005C08F3 /* MetaProjectRequirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C197042A7F956D005C08F3 /* MetaProjectRequirements.swift */; };
+		74C197072A82D605005C08F3 /* TestVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C197062A82D605005C08F3 /* TestVideo.swift */; };
+		74C1970B2A830101005C08F3 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 74C1970A2A830101005C08F3 /* video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,9 @@
 		74C196FB2A7DAC18005C08F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		74C197022A7E4226005C08F3 /* HelloWorldIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldIntro.swift; sourceTree = "<group>"; };
 		74C197042A7F956D005C08F3 /* MetaProjectRequirements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaProjectRequirements.swift; sourceTree = "<group>"; };
+		74C197062A82D605005C08F3 /* TestVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVideo.swift; sourceTree = "<group>"; };
+		74C197092A8300C8005C08F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		74C1970A2A830101005C08F3 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video.mp4; path = ../../../../../Downloads/video.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +60,13 @@
 		74C196F32A7DAC16005C08F3 /* IntroToMobileDevelopmentMetaCert */ = {
 			isa = PBXGroup;
 			children = (
+				74C197092A8300C8005C08F3 /* Info.plist */,
 				74C196F42A7DAC16005C08F3 /* IntroToMobileDevelopmentMetaCertApp.swift */,
 				74C196F62A7DAC16005C08F3 /* ContentView.swift */,
 				74C197022A7E4226005C08F3 /* HelloWorldIntro.swift */,
 				74C197042A7F956D005C08F3 /* MetaProjectRequirements.swift */,
+				74C197062A82D605005C08F3 /* TestVideo.swift */,
+				74C1970A2A830101005C08F3 /* video.mp4 */,
 				74C196F82A7DAC18005C08F3 /* Assets.xcassets */,
 				74C196FA2A7DAC18005C08F3 /* Preview Content */,
 			);
@@ -132,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74C196FC2A7DAC18005C08F3 /* Preview Assets.xcassets in Resources */,
+				74C1970B2A830101005C08F3 /* video.mp4 in Resources */,
 				74C196F92A7DAC18005C08F3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +154,7 @@
 			files = (
 				74C197032A7E4226005C08F3 /* HelloWorldIntro.swift in Sources */,
 				74C196F72A7DAC16005C08F3 /* ContentView.swift in Sources */,
+				74C197072A82D605005C08F3 /* TestVideo.swift in Sources */,
 				74C197052A7F956D005C08F3 /* MetaProjectRequirements.swift in Sources */,
 				74C196F52A7DAC16005C08F3 /* IntroToMobileDevelopmentMetaCertApp.swift in Sources */,
 			);
@@ -278,6 +288,7 @@
 				DEVELOPMENT_TEAM = 4A45YWS7LC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IntroToMobileDevelopmentMetaCert/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +318,7 @@
 				DEVELOPMENT_TEAM = 4A45YWS7LC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IntroToMobileDevelopmentMetaCert/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
