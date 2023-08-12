@@ -15,6 +15,7 @@
 		74C197052A7F956D005C08F3 /* MetaProjectRequirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C197042A7F956D005C08F3 /* MetaProjectRequirements.swift */; };
 		74C197072A82D605005C08F3 /* TestVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C197062A82D605005C08F3 /* TestVideo.swift */; };
 		74C1970B2A830101005C08F3 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 74C1970A2A830101005C08F3 /* video.mp4 */; };
+		74C1970D2A87886B005C08F3 /* SimpleWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C1970C2A87886B005C08F3 /* SimpleWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		74C197062A82D605005C08F3 /* TestVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVideo.swift; sourceTree = "<group>"; };
 		74C197092A8300C8005C08F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		74C1970A2A830101005C08F3 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video.mp4; path = ../../../../../Downloads/video.mp4; sourceTree = "<group>"; };
+		74C1970C2A87886B005C08F3 /* SimpleWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				74C196F62A7DAC16005C08F3 /* ContentView.swift */,
 				74C197022A7E4226005C08F3 /* HelloWorldIntro.swift */,
 				74C197042A7F956D005C08F3 /* MetaProjectRequirements.swift */,
+				74C1970C2A87886B005C08F3 /* SimpleWeather.swift */,
 				74C197062A82D605005C08F3 /* TestVideo.swift */,
 				74C1970A2A830101005C08F3 /* video.mp4 */,
 				74C196F82A7DAC18005C08F3 /* Assets.xcassets */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74C1970D2A87886B005C08F3 /* SimpleWeather.swift in Sources */,
 				74C197032A7E4226005C08F3 /* HelloWorldIntro.swift in Sources */,
 				74C196F72A7DAC16005C08F3 /* ContentView.swift in Sources */,
 				74C197072A82D605005C08F3 /* TestVideo.swift in Sources */,
